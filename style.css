@@ -1,0 +1,56 @@
+header {
+     background-color: #222;
+     padding: 10px;
+}
+
+.menu {
+     display: flex;
+      gap: 10px;
+ }
+
+.menu button {
+     background-color: #444;
+     color: white;
+     border: none;
+     padding: 10px 15px;
+     cursor: pointer;
+}
+
+.menu button:hover {
+     background-color: #666;
+}
+
+footer {
+     margin-top: 20px;
+     padding: 10px;
+     background-color: #222;
+     color: white;
+     text-align: center;
+}
+/*
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+*/
+
+body{
+    background-color: black;
+    color: white;
+}
+
+h1{
+            font-weight: bold;
+}
+/* font-weight: bold; (Texto en negrita) */
+span{
+            color: #22D4FD;
+            border: 1px solid #22D4FD;
+            padding: 10px;
+}
+/* color: #22D4FD; (Color del texto azul)
+
+border: 1px solid #22D4FD; (Borde con 1 px de ancho, de tipo sólido y color del borde azul)
+
+padding: 10px; (Espaciado interno de 10px) */

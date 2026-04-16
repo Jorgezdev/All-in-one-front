@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<!-- Head comprende la información del documento que será interpretada por el navegador (metadatos). Por ejemplo, título del documento, enlaces a hojas de estilo, etc.-->
+    <meta charset="UTF-8">
+    <!-- meta Define metadatos, es decir, información sobre datos en un documento HTML. Las etiquetas <meta> van dentro del elemento <head> y se utilizan para especificar el conjunto de caracteres, el autor del documento, la configuración de la ventana gráfica, etc.-->
+    <!-- la etiqueta <meta charset="UTF-8">, que nos permite mostrar correctamente los caracteres especiales en nuestro sitio web.-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--  La etiqueta <meta name="viewport" content="width=device-width, initial-scale=1.0"> nos ayuda a que nuestro sitio web se adapte a diferentes dispositivos.-->
+    <link rel="stylesheet" href="style.css">
+    <!-- se usa comúnmente para vincular una hoja de estilo externa, también se usa para definir el favicon de la página (icono de la pestaña del navegador), como otros recursos.-->
+    <title>proyecto</title>
+</head>
+<body>
+
+    <header>
+        <div class="menu">
+            <button onclick="inicio()">Inicio</button>
+            <button onclick="proyectos()">Proyectos</button>
+            <button onclick="contacto()">Contacto</button>
+        </div>
+    </header>
+<!-- la etiqueta <ul> para una lista no ordenada o <ol> para una lista ordenada, y <li> para cada elemento de la lista. Verifica el diseño en el navegador después de la inserción. -->
+    <main>
+        <h1>Proyecto One</h1>
+        <h2>Descripción del Proyecto</h2>
+        <p>Este es el <span>proyecto.</span></p>
+<!--  <span> no aplica negrita por defecto, pero es una excelente forma de resaltar partes del texto en HTML-->
+<!-- div me ayudo a seccionar la imagen y botones, ademas de centrar el contenido al centro de la pantalla -->
+        <div class="container1">
+            <img src="/img/Beethoven.png" alt="Beethoven" width="400" height="500">
+
+            <div class="buttons">
+                <button onclick="instagram()">Instagram</button>
+                <button onclick="github()">Github</button>
+                <!-- agrega enlaces (<a>) a tus redes sociales o portafolios en línea, como Instagram y GitHub. -->
+            </div>
+        </div>
+    </main>
+<!-- cuando hablamos de etiquetas semanticas nos referimos a elementos que dan significado al contenido, como <header>, <nav>, <main>, <section>, <article>, y <footer>     
+    definen claramente el propósito del contenido tanto para el navegador como para el desarrollador, mejorando la accesibilidad (lectores de pantalla) y el SEO. sustituyendo el uso excesivo de <div> genéricos.-->
+    <footer>
+        <p>© 2026 Mi Sitio Web</p>
+    </footer>
+<!-- <style> Esta etiqueta se usa para declarar estilos (CSS) para un documento. No la usamos en este caso, ya que los estilos están en un archivo externo llamado style.css -->
+<!-- 
+    Las etiquetas semánticas son etiquetas que tienen un significado, que le dan significado a la información del texto para el navegador y los motores de búsqueda, por ejemplo, usar la etiqueta <header> para encabezados o <article> para dar significado a un artículo a ese bloque de texto, incluso <p> para indicar que ese texto es un párrafo, es una buena práctica siempre tratar de usar estas etiquetas semánticas para ayudar en la comprensión del código, además de ayudar mucho en el SEO del sitio (Optimización para motores de búsqueda, es lo que ayuda a que su sitio se clasifique mejor en los motores de búsqueda como Google). A continuación se muestra la lista de etiquetas semánticas mencionadas durante el artículo:
+
+<header>
+<main>
+<footer>
+<section>
+<article>
+<aside>
+<nav>
+<ol>
+<ul>
+<li>
+
+-->
+
+<!-- Las etiquetas que no tienen semántica no definen un significado para ese texto, normalmente se usan solo con fines de separación y estilo. A continuación se muestra una lista de algunas etiquetas no semánticas:
+
+<div>
+<span>
+<b>
+<i>
+Comentarios-->
+
+</body>
+</html>
